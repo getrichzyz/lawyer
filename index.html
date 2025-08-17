@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D&A Law Firm - Daniel & Associates</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <!-- Favicon -->
+<link rel="icon" type="image/png" href="20435378-4abd-43d6-a7be-5363e90189c7.png" />
+
+
+  <!-- Style utama  -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" role="banner">
+    <div class="container nav-container">
+      <a class="brand" href="index.html" aria-label="Beranda D&A Law Firm">
+        <img src="20435378-4abd-43d6-a7be-5363e90189c7.png" alt="Logo D&A Law Firm" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">D&amp;A LAW FIRM</span>
+          <span class="brand-subtitle">Daniel &amp; Associates</span>
+        </div>
+      </a>
+
+      <nav class="site-nav" role="navigation" aria-label="Navigasi utama">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu">
+          <span class="sr-only">Buka menu</span>
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul id="primary-menu" class="nav-links">
+          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#lokasi">Lokasi</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" role="region" aria-label="Pengantar">
+    <!-- aksen gradient & glass siap di-CSS -->
+    <div class="hero-bg">
+      <span class="gradient-blob blob-1" aria-hidden="true"></span>
+      <span class="gradient-blob blob-2" aria-hidden="true"></span>
+      <span class="grid-overlay" aria-hidden="true"></span>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <h1 class="hero-title">Solusi Hukum yang <span class="highlight">Tegas</span> &amp; <span class="highlight">Elegan</span></h1>
+        <p class="hero-lead">
+          <strong>D&amp;A Law Firm</strong> memadukan ketelitian hukum dan strategi modern untuk hasil yang nyata.
+          Pendampingan profesional bagi bisnis, individu, dan tokoh publik.
+        </p>
+        <div class="hero-cta">
+          <a href="#kontak" class="btn btn-gold">Konsultasi Sekarang</a>
+          <a href="#layanan" class="btn btn-ghost">Lihat Layanan</a>
+        </div>
+
+        <!-- trust badges / quick stats -->
+        <ul class="trust-list" aria-label="Sorotan keunggulan">
+          <li><i class="fa-solid fa-scale-balanced"></i> Integritas & Kerahasiaan</li>
+          <li><i class="fa-solid fa-gavel"></i> Track Record Terbukti</li>
+          <li><i class="fa-solid fa-user-tie"></i> Pendekatan Personal</li>
+        </ul>
+      </div>
+
+      <!-- kartu profil: foto tidak kaku (siap diganti) -->
+      <aside class="hero-profile" aria-label="Profil Pengacara">
+        <div class="profile-card">
+          <figure class="profile-media">
+            <!-- gunakan foto yang lebih humanis: senyum tipis, pose natural -->
+            <img src="profilm2.jpg" alt="Daniel — Managing Partner D&A Law Firm" />
+            <span class="profile-ring" aria-hidden="true"></span>
+          </figure>
+          <div class="profile-meta">
+            <h3 class="profile-name">DANIEL CHANDRA SIMANGUNSONG, S.H</h3>
+            <p class="profile-role">Managing Partner</p>
+            <ul class="profile-highlights">
+              <li><i class="fa-regular fa-star"></i> 10+ tahun praktik</li>
+              <li><i class="fa-regular fa-handshake"></i> Korporasi & Litigasi</li>
+              <li><i class="fa-regular fa-comments"></i> ID & EN</li>
+            </ul>
+            <a href="#tentang" class="profile-link">Lihat Profil Lengkap</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== FEATURE STRIP ===== -->
+  <section class="feature-strip" role="region" aria-label="Keunggulan Singkat">
+    <div class="container strip-grid">
+      <article class="strip-item">
+        <i class="fas fa-shield-halved"></i>
+        <h3>Reputasi Terpercaya</h3>
+        <p>Dipercaya klien korporasi & individu dengan standar etik tinggi.</p>
+      </article>
+      <article class="strip-item">
+        <i class="fas fa-briefcase"></i>
+        <h3>Spesialis Bisnis</h3>
+        <p>Kontrak, kepatuhan, sengketa komersial, M&amp;A.</p>
+      </article>
+      <article class="strip-item">
+        <i class="fas fa-balance-scale-right"></i>
+        <h3>Litigasi Efektif</h3>
+        <p>Strategi tegas, komunikasi jelas, fokus hasil.</p>
+      </article>
+      <article class="strip-item">
+        <i class="fas fa-user-check"></i>
+        <h3>Pendekatan Personal</h3>
+        <p>Solusi disesuaikan kebutuhan setiap klien.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== CALL TO ACTION ===== -->
+  <section class="cta" role="region" aria-label="Ajakan Tindakan">
+    <div class="container cta-wrap">
+      <div class="cta-text">
+        <h2>Butuh Konsultasi Cepat & Rahasia?</h2>
+        <p>Jadwalkan pertemuan online atau tatap muka. Kami siap membantu dengan strategi yang tepat.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="#kontak" class="btn btn-gold">Buat Janji Temu</a>
+        <a href="#lokasi" class="btn btn-ghost">Lihat lokasi</a>
+      </div>
+    </div>
+  </section>
+  <!-- ===== TENTANG ===== -->
+<section class="about" id="tentang" role="region" aria-label="Tentang D&A Law Firm">
+  <div class="container about-grid">
+    <!-- Gambar di kiri, teks panjang di kanan -->
+    <div class="about-image">
+      <img src="20435378-4abd-43d6-a7be-5363e90189c7.png" alt="Tim dan kantor D&A Law Firm">
+    </div>
+    <div class="about-text">
+      <h2 class="section-title">Tentang <span class="highlight">Daniel & Associate (D&A)</span></h2>
+      <p>Kami memahami bahwa setiap klien memiliki kebutuhan unik, dan oleh karena itu, kami menawarkan solusi hukum yang disesuaikan dengan konteks dan tujuan masing-masing. Dengan pengalaman luas dalam menangani berbagai kasus hukum, mulai dari litigasi komersial hingga hukum pidana, kami memiliki rekam jejak yang terbukti dalam mencapai hasil yang optimal bagi klien kami.</p>
+      <p>Tim advokat Daniel & Associate (D&A) tidak hanya memiliki pengetahuan hukum yang mendalam, tetapi juga pemahaman yang kuat tentang dinamika bisnis dan politik di Indonesia. Hal ini memungkinkan kami untuk memberikan nasihat hukum yang tidak hanya tepat secara hukum, tetapi juga relevan dengan situasi dan kebutuhan klien kami. Kami percaya bahwa keberhasilan klien adalah keberhasilan kami, dan kami berkomitmen untuk membangun hubungan jangka panjang yang didasarkan pada kepercayaan dan integritas.</p>
+      <p>Dengan dedikasi untuk memberikan layanan hukum yang terbaik, Daniel & Associate (D&A) siap menjadi mitra hukum Anda dalam melindungi kepentingan dan mencapai tujuan Anda. Kami mengundang Anda untuk menjelajahi layanan kami dan menemukan bagaimana kami dapat membantu Anda dalam perjalanan hukum Anda.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TIM ADVOKAT ===== -->
+<section class="team" id="tim" role="region" aria-label="Tim Advokat D&A Law Firm">
+  <div class="container">
+    <h2 class="section-title">Tim <span class="highlight">Advokat</span></h2>
+    <div class="team-grid">
+      <!-- Card anggota tim -->
+      <div class="team-card">
+        <img src="OSC_9929 e.jpg" alt="DANIEL CHANDRA SIMANGUNSONG, S.H">
+        <h3>DANIEL CHANDRA SIMANGUNSONG, S.H</h3>
+      </div>
+      <div class="team-card">
+        <img src="zxcx.jpg" alt="RENAL W SIMANGUNSONG, S.H">
+        <h3>RENAL W SIMANGUNSONG, S.H</h3>
+      </div>
+      <div class="team-card">
+        <img src="aad.jpg" alt="NASRI SIHOTANG, S.H">
+        <h3>NASRI SIHOTANG, S.H</h3>
+      </div>
+      <div class="team-card">
+        <img src="johnprofile.jpg" alt="JHON PAUL TARIGAN, S.H">
+        <h3>JHON PAUL TARIGAN, S.H</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== LAYANAN ===== -->
+<section class="services" id="layanan" role="region" aria-label="Layanan D&A Law Firm">
+  <div class="container">
+    <h2 class="section-title">Layanan <span class="highlight">Kami</span></h2>
+    <div class="services-grid">
+      <div class="service-item"><i class="fa-solid fa-check"></i> Layanan Retainer</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Korporasi Umum</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> PKPU & Kepailitan</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Pertambangan & Sumber Daya Alam</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Pasar Modal</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Perpajakan</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Investasi-Merger & Akuisisi</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Infrastruktur & Properti</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Hak Atas Kekayaan Intelektual</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Penyelesaian Hukum Praktik Tenaga Kesehatan</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Ketenagakerjaan & Penyelesaian Hubungan Industrial</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Persaingan Usaha & Anti Monopoli</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Hukum Keluarga</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Konsultan Pengadaan Barang & Jasa Pemerintah</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Mediator Non Hakim</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Hukum Pidana</div>
+      <div class="service-item"><i class="fa-solid fa-check"></i> Hukum Perdata</div>
+    </div>
+  </div>
+</section>
+
+<!-- lokasi -->
+
+
+<section class="location" id="lokasi" role="region" aria-label="Lokasi Kantor D&A Law Firm">
+  <div class="container">
+    <h2 class="section-title">Lokasi <span class="highlight">Kantor</span></h2>
+    <p class="location-desc">
+      Kantor kami mudah dijangkau dan terletak di area strategis. 
+      Silakan kunjungi kami secara langsung atau klik tombol di bawah ini untuk membuka lokasi di Google Maps,
+      JJ8H+9G5, Jl. Akses pintu toll helvetia, Tj. Gusta, Kec. Sunggal, Kabupaten Deli Serdang, Sumatera Utara.
+    </p>
+
+    <div class="map-wrapper">
+      <!-- Ganti src iframe ini dengan embed code Google Maps kamu -->
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126740.5478971602!2d98.5!3d3.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313123abcd%3A0xef123456789!2sNama%20Lokasi!5e0!3m2!1sid!2sid!4v1755345903861!5m2!1sid!2sid"
+        width="100%" height="400" style="border:0;" 
+        allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="map-action">
+      <a href="https://share.google/UjBOCZ3v9X5D78Gxn" target="_blank" rel="noopener" class="map-btn">
+        📍 Buka di Google Maps
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================
+     KONTAK
+========================= -->
+<section class="contact" id="kontak" role="region" aria-label="Kontak D&A Law Firm">
+  <div class="container">
+    <h2 class="section-title">Kontak <span class="highlight">Kami</span></h2>
+    <p class="contact-subtitle">Butuh solusi hukum sekarang? Hubungi kami melalui WhatsApp, email, atau telepon, dan tim advokat kami siap membantu Anda. Klik tombol di bawah ini untuk konsultasi cepat.</p>
+    
+    <div class="contact-grid">
+      <!-- Email -->
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=danielchandrasimangunsong505@gmail.com" class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Gmail</span>
+      </a>
+      
+      <!-- WhatsApp -->
+      <a href="https://wa.me/0000000" target="_blank" class="contact-card">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>WhatsApp</span>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/danielassociates1?igsh=MWpqcWU3ZTltMWxnMw==" target="_blank" class="contact-card">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+      
+      <!-- TikTok -->
+      <a href="https://www.tiktok.com/@bds5285?_t=ZS-8yvJSiRWRaz&_r=1" target="_blank" class="contact-card">
+        <i class="fa-brands fa-tiktok"></i>
+        <span>TikTok</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Font Awesome CDN untuk icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+
+
+<!-- =========================
+     FAQ
+========================= -->
+<section class="faq" id="faq" role="region" aria-label="Pertanyaan Umum">
+  <div class="container">
+    <h2 class="section-title">Pertanyaan <span class="highlight">Umum</span></h2>
+    <p class="faq-subtitle">Beberapa pertanyaan yang sering diajukan kepada tim advokat kami.</p>
+
+    <div class="faq-list">
+
+      <!-- FAQ Item -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Berapa biaya konsultasi hukum di D&A Law Firm?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Biaya konsultasi bervariasi tergantung pada jenis kasus. Namun, kami menyediakan konsultasi awal gratis untuk memahami kebutuhan hukum Anda sebelum melangkah lebih lanjut.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Bagaimana cara membuat janji dengan advokat?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Anda dapat menghubungi kami melalui WhatsApp, telepon, atau email. Tim kami akan menjadwalkan janji sesuai waktu yang Anda inginkan.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Apakah menerima kasus pro bono?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Ya, kami sesekali menangani kasus pro bono terutama yang berkaitan dengan kepentingan masyarakat luas atau pihak yang kurang mampu.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Apakah layanan D&A Law Firm hanya di satu kota saja?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Kami berpusat di MEDAN, namun dapat menangani kasus hukum di berbagai wilayah di Indonesia melalui jaringan mitra advokat kami.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+    
+    <!-- Brand & Deskripsi -->
+    <div class="footer-brand">
+      <img src="20435378-4abd-43d6-a7be-5363e90189c7.png" alt="Logo D&A Law Firm" class="footer-logo" />
+      <p class="footer-desc">
+        D&A Law Firm adalah firma hukum terkemuka di Indonesia yang didirikan dengan komitmen 
+        untuk memberikan layanan hukum yang profesional, terpercaya, dan berkualitas tinggi.
+      </p>
+      <p class="footer-copy">© 2025 D&amp;A Law Firm. Semua Hak Dilindungi.</p>
+    </div>
+
+    <!-- Navigasi -->
+    <nav class="footer-nav" aria-label="Navigasi footer">
+      <a href="#tentang">Tentang</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#lokasi">Lokasi</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- Kontak -->
+    <div class="footer-contact">
+      <a href="mailto:danielchandrasimangunsong505@gmail.com">
+        <i class="fa-regular fa-envelope"></i> danielchandrasimangunsong505@gmail.com
+      </a>
+      <a href="tel:+62000000000">
+        <i class="fa-solid fa-phone"></i> +62 000 0000
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+
+  <!-- ===== SCRIPTS ===== -->
+  <script>
+    // Toggle menu mobile
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav-links');
+    toggle?.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('active');
+    });
+  </script>
+
+  <!-- ===== FAQ js ===== -->
+<script>
+  const faqItems = document.querySelectorAll(".faq-item");
+
+  faqItems.forEach(item => {
+    const btn = item.querySelector(".faq-question");
+    btn.addEventListener("click", () => {
+      item.classList.toggle("active");
+    });
+  });
+</script>
+</body>
+</html>
